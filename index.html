@@ -7,6 +7,21 @@
 	})(window,document,'script','dataLayer','GTM-NJLZSHCD');
 	</script>
 	<!-- End Google Tag Manager -->
+	<script>
+	  // Extract from URL if GTM isn't loaded
+	  function getUrlParam(param) {
+	    var urlParams = new URLSearchParams(window.location.search);
+	    return urlParams.get(param);
+	  }
+	  // Display values
+	  document.addEventListener('DOMContentLoaded', function() {
+	    var key1 = window.key1 || getUrlParam('key1');
+	    var key2 = window.key2 || getUrlParam('key2');
+	    
+	    document.getElementById('displayKey1').textContent = key1 || 'Not found';
+	    document.getElementById('displayKey2').textContent = key2 || 'Not found';
+	  });
+	</script>
 </head>
 
 <body>
