@@ -6,23 +6,6 @@
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-NJLZSHCD');
 	</script>
-
-	<script>
-	  // Extract from URL if GTM isn't loaded
-	  function getUrlParam(param) {
-	    const urlParams = new URLSearchParams(window.location.search);
-	    return urlParams.get(param);
-	  }
-
-	  // Display values
-	  document.addEventListener('DOMContentLoaded', function() {
-	    const key1 = window.key1 || getUrlParam('key1');
-	    const key2 = window.key2 || getUrlParam('key2');
-	    
-	    document.getElementById('displayKey1').textContent = key1 || 'Not found';
-	    document.getElementById('displayKey2').textContent = key2 || 'Not found';
-	  });
-	</script>
 	<!-- End Google Tag Manager -->
 </head>
 
