@@ -22,11 +22,6 @@
 	    document.getElementById('displayKey2').textContent = key2 || 'Not found';
 	  });
 	</script>
-	<script type="text/javascript"> (function(a,b,c,d,e,f,g){e['ire_o']=c;e[c]=e[c]||function(){(e[c].a=e[c].a||[]).push(arguments)};f=d.createElement(b);g=d.getElementsByTagName(b)[0];f.async=1;f.src=a;g.parentNode.insertBefore(f,g);})('https://utt.impactcdn.com/A2788006-de3d-4011-a57c-c4737e79de0365535.js','script','ire',document,window);   
-	  // Add debug logs to check values
-	  console.log('GTM Key1:', '{{URL key1}}');
-	  console.log('GTM Key2:', '{{URL key2}}');
-	  ire('identify', {customerid: '{{URL key1}}' /*INSERT key1*/, customeremail: '{{URL key2}}' /*INSERT key2*/}); </script>
 </head>
 
 <body>
@@ -38,7 +33,5 @@
 	<br>
 	<p>Key1: <span id="displayKey1">Not found</span></p>
 	<p>Key2: <span id="displayKey2">Not found</span></p>
-	<p>Customerid: <span id="displayKey1">Not found</span></p>
-	<p>Customeremail: <span id="displayKey2">Not found</span></p>
 </body>
 
