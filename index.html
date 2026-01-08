@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>字节 | Jimmy的个人博客</title>
+    <title>Bytes | SuperLionn's Blog</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script>
-        // Tailwind 自定义配置
+        // Tailwind custom configuration
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
                         byte: {
-                            primary: '#0078FF', // 字节主题蓝
-                            secondary: '#11CDEF', // 字节辅助蓝
-                            dark: '#0F172A',     // 深色背景
-                            light: '#F8FAFC',    // 浅色背景
-                            code: '#1E293B',     // 代码块颜色
+                            primary: '#0078FF', // Byte theme blue
+                            secondary: '#11CDEF', // Byte secondary blue
+                            dark: '#0F172A',     // Dark background
+                            light: '#F8FAFC',    // Light background
+                            code: '#1E293B',     // Code block color
                         },
                     },
                     fontFamily: {
@@ -49,7 +49,7 @@
     </style>
 </head>
 <body class="byte-bg min-h-screen text-white font-mono">
-    <!-- 导航栏 -->
+    <!-- Navigation -->
     <nav class="sticky top-0 z-50 bg-byte-dark/80 backdrop-blur-md border-b border-byte-primary/20">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <a href="#" class="flex items-center gap-2">
@@ -63,26 +63,24 @@
                     <i class="fa fa-moon-o text-xl"></i>
                 </button>
                 <a href="#about" class="hover:text-byte-primary transition-colors">
-                    <i class="fa fa-user"></i> ABOUT
+                    <i class="fa fa-user"></i> About
                 </a>
                 <a href="#posts" class="hover:text-byte-primary transition-colors">
-                    <i class="fa fa-file-text"></i> BLOG
+                    <i class="fa fa-file-text"></i> Blog
                 </a>
                 <a href="#contact" class="hover:text-byte-primary transition-colors">
-                    <i class="fa fa-envelope"></i> CONTACT
+                    <i class="fa fa-envelope"></i> Contact
                 </a>
             </div>
         </div>
     </nav>
 
-    <!-- 英雄区 -->
+    <!-- Hero Section -->
     <header class="container mx-auto px-4 py-16 md:py-24 flex flex-col items-center text-center">
         <div class="binary-animation overflow-hidden h-10 mb-6 opacity-50">
             <div class="space-y-1">
                 <p class="byte-text text-sm">01001000 01100101 01101100 01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100</p>
                 <p class="byte-text text-sm">00110001 00110000 00110000 00110000 00100000 01100010 01111001 01110100 01100101 01110011</p>
-                <p class="byte-text text-sm">01101000 01110101 01100010 01101111 01100101 01110011 00100000 01100010 01101100 01101111 01100111</p>
-                <p class="byte-text text-sm">01101000 01110101 01100010 01101111 01100101 01110011 00100000 01100010 01101100  01100111</p>
                 <p class="byte-text text-sm">01101000 01110101 01100010 01101111 01100101 01110011 00100000 01100010 01101100 01101111 01100111</p>
             </div>
         </div>
@@ -90,21 +88,21 @@
             <span class="text-byte-primary">01</span>My Blog<span class="text-byte-primary">01</span>
         </h1>
         <p class="text-xl text-gray-300 max-w-2xl mb-8">
-            A blog built with bytes and passion
+            Building ideas with bytes, documenting life with code · A blog built with bytes and passion
         </p>
         <div class="flex gap-4">
             <a href="#posts" class="bg-byte-primary hover:bg-byte-primary/80 px-6 py-3 rounded-lg transition-colors">
-                Read Blogs
+                Browse Articles
             </a>
-            <a href="https://github.com/superLionn" target="_blank" class="border border-byte-primary/50 hover:border-byte-primary px-6 py-3 rounded-lg transition-colors">
+            <a href="https://github.com" target="_blank" class="border border-byte-primary/50 hover:border-byte-primary px-6 py-3 rounded-lg transition-colors">
                 <i class="fa fa-github mr-2"></i> GitHub
             </a>
         </div>
     </header>
 
-    <!-- 主要内容 -->
+    <!-- Main Content -->
     <main class="container mx-auto px-4 py-12">
-        <!-- 关于我 -->
+        <!-- About Me -->
         <section id="about" class="mb-16">
             <h2 class="text-3xl font-bold mb-8 byte-text border-b border-byte-primary/30 pb-2">
                 <span class="text-byte-primary">[</span> About Me <span class="text-byte-primary">]</span>
@@ -113,12 +111,13 @@
                 <div class="md:col-span-1">
                     <div class="bg-byte-code/50 rounded-xl p-6 border border-byte-primary/10">
                         <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-2 border-byte-primary">
-                            <img src="https://picsum.photos/200/200" alt="个人头像" class="w-full h-full object-cover">
+                            <img src="https://picsum.photos/200/200" alt="Profile Picture" class="w-full h-full object-cover">
                         </div>
-                        <h3 class="text-xl font-bold text-center mb-2">Byte Traveller </h3>
-                        <p class="text-center text-gray-400 mb-4">Cloud Engineer</p>
+                        <h3 class="text-xl font-bold text-center mb-2">Byte Traveler</h3>
+                        <p class="text-center text-gray-400 mb-4">Full Stack Developer</p>
                         <div class="flex justify-center gap-4 text-xl">
-                            <a href="https://github.com/superLionn" class="text-gray-400 hover:text-byte-primary transition-colors"><i class="fa fa-github"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-byte-primary transition-colors"><i class="fa fa-github"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-byte-primary transition-colors"><i class="fa fa-twitter"></i></a>
                             <a href="#" class="text-gray-400 hover:text-byte-primary transition-colors"><i class="fa fa-linkedin"></i></a>
                             <a href="#" class="text-gray-400 hover:text-byte-primary transition-colors"><i class="fa fa-weixin"></i></a>
                         </div>
@@ -126,95 +125,95 @@
                 </div>
                 <div class="md:col-span-2">
                     <div class="bg-byte-code/50 rounded-xl p-6 border border-byte-primary/10 h-full">
-                        <h3 class="text-xl font-bold mb-4 text-byte-primary">Introduction</h3>
+                        <h3 class="text-xl font-bold mb-4 text-byte-primary">Personal Introduction</h3>
                         <p class="mb-4 text-gray-300">
-                            👋 Hi! I am a cloud engineer that passionate with public cloud computing services, expert in Azure. I believe cloud computing will change the digital world.
+                            👋 Hello! I'm a passionate developer focused on front-end, back-end, and full-stack development. My coding world is built with 0s and 1s, and I believe every byte holds infinite possibilities.
                         </p>
                         <p class="mb-4 text-gray-300">
-                            💻 Skills：React、Python、KQL、PostgreSQL、Azure App Service、Microsoft Entra ID、IAM. 
+                            💻 Skills: JavaScript/TypeScript, React, Vue, Node.js, Python, Go
                         </p>
                         <p class="mb-4 text-gray-300">
-                            📝 This blog mainly share my study notes and working experience.
+                            📝 This blog shares my programming learning notes, project experience, and technical thoughts. I hope to communicate and learn with more developers.
                         </p>
                         <div class="mt-6 flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-byte-primary/20 text-byte-primary rounded-full text-sm">JavaScript</span>
                             <span class="px-3 py-1 bg-byte-primary/20 text-byte-primary rounded-full text-sm">React</span>
+                            <span class="px-3 py-1 bg-byte-primary/20 text-byte-primary rounded-full text-sm">Node.js</span>
                             <span class="px-3 py-1 bg-byte-primary/20 text-byte-primary rounded-full text-sm">Python</span>
-                            <span class="px-3 py-1 bg-byte-primary/20 text-byte-primary rounded-full text-sm">KQL</span>
-                            <span class="px-3 py-1 bg-byte-primary/20 text-byte-primary rounded-full text-sm">PostgreSQL</span>
-                            <span class="px-3 py-1 bg-byte-primary/20 text-byte-primary rounded-full text-sm">全栈开发</span>
+                            <span class="px-3 py-1 bg-byte-primary/20 text-byte-primary rounded-full text-sm">Full Stack</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- 博客文章 -->
+        <!-- Blog Posts -->
         <section id="posts" class="mb-16">
             <h2 class="text-3xl font-bold mb-8 byte-text border-b border-byte-primary/30 pb-2">
-                <span class="text-byte-primary">[</span> Blogs <span class="text-byte-primary">]</span>
+                <span class="text-byte-primary">[</span> Blog Posts <span class="text-byte-primary">]</span>
             </h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- 文章卡片 1 -->
+                <!-- Post Card 1 -->
                 <div class="bg-byte-code/50 rounded-xl overflow-hidden border border-byte-primary/10 hover:border-byte-primary/50 transition-colors">
                     <div class="h-48 overflow-hidden">
-                        <img src="https://picsum.photos/600/400?random=1" alt="文章封面" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <img src="https://picsum.photos/600/400?random=1" alt="Post Cover" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <div class="flex justify-between items-center mb-3">
-                            <span class="text-xs text-byte-primary bg-byte-primary/10 px-2 py-1 rounded">How to manage users under Microsoft Entra organisation</span>
+                            <span class="text-xs text-byte-primary bg-byte-primary/10 px-2 py-1 rounded">Frontend Development</span>
                             <span class="text-xs text-gray-400">2024-01-08</span>
                         </div>
                         <h3 class="text-xl font-bold mb-3 hover:text-byte-primary transition-colors">
-                            <a href="#">PowerShell scripts to create/delete/move users within the same Microsoft Entra organisation </a>
+                            <a href="post1.html">Understanding JavaScript Async Programming</a>
                         </h3>
                         <p class="text-gray-300 text-sm mb-4 line-clamp-3">
-                            Best practice for bunk user management.
+                            This article explains the evolution of JavaScript asynchronous programming in detail, from callback functions to Promise, and then to async/await, helping you fully understand the core principles and best practices of asynchronous programming.
                         </p>
-                        <a href="#" class="text-byte-primary flex items-center text-sm hover:underline">
+                        <a href="post1.html" class="text-byte-primary flex items-center text-sm hover:underline">
                             Read More <i class="fa fa-arrow-right ml-1"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- 文章卡片 2 -->
+                <!-- Post Card 2 -->
                 <div class="bg-byte-code/50 rounded-xl overflow-hidden border border-byte-primary/10 hover:border-byte-primary/50 transition-colors">
                     <div class="h-48 overflow-hidden">
-                        <img src="https://picsum.photos/600/400?random=2" alt="文章封面" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <img src="https://picsum.photos/600/400?random=2" alt="Post Cover" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <div class="flex justify-between items-center mb-3">
-                            <span class="text-xs text-byte-primary bg-byte-primary/10 px-2 py-1 rounded">后端开发</span>
+                            <span class="text-xs text-byte-primary bg-byte-primary/10 px-2 py-1 rounded">Backend Development</span>
                             <span class="text-xs text-gray-400">2024-01-05</span>
                         </div>
                         <h3 class="text-xl font-bold mb-3 hover:text-byte-primary transition-colors">
-                            <a href="#">Node.js 性能优化实战</a>
+                            <a href="post2.html">Node.js Performance Optimization in Practice</a>
                         </h3>
                         <p class="text-gray-300 text-sm mb-4 line-clamp-3">
-                            分享我在实际项目中优化 Node.js 应用性能的经验和技巧，包括内存泄漏排查、CPU 优化、数据库查询优化等方面的实践。
+                            Sharing my experience and techniques for optimizing Node.js application performance in real projects, including memory leak detection, CPU optimization, database query optimization and other practical aspects.
                         </p>
-                        <a href="#" class="text-byte-primary flex items-center text-sm hover:underline">
+                        <a href="post2.html" class="text-byte-primary flex items-center text-sm hover:underline">
                             Read More <i class="fa fa-arrow-right ml-1"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- 文章卡片 3 -->
+                <!-- Post Card 3 -->
                 <div class="bg-byte-code/50 rounded-xl overflow-hidden border border-byte-primary/10 hover:border-byte-primary/50 transition-colors">
                     <div class="h-48 overflow-hidden">
-                        <img src="https://picsum.photos/600/400?random=3" alt="文章封面" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <img src="https://picsum.photos/600/400?random=3" alt="Post Cover" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <div class="flex justify-between items-center mb-3">
-                            <span class="text-xs text-byte-primary bg-byte-primary/10 px-2 py-1 rounded">Tool & Skill</span>
+                            <span class="text-xs text-byte-primary bg-byte-primary/10 px-2 py-1 rounded">Tools & Tips</span>
                             <span class="text-xs text-gray-400">2024-01-01</span>
                         </div>
                         <h3 class="text-xl font-bold mb-3 hover:text-byte-primary transition-colors">
-                            <a href="#">GitHub Pages Deployment Guide</a>
+                            <a href="post3.html">GitHub Pages Deployment Guide</a>
                         </h3>
                         <p class="text-gray-300 text-sm mb-4 line-clamp-3">
-                            Step-by-step guidance of static website deployment to GitHub Page to let your personal blog has geek experience. 
+                            A detailed guide on deploying static websites to GitHub Pages, including custom domain setup, HTTPS configuration, automated deployment and other advanced techniques to give your personal blog a professional access experience.
                         </p>
-                        <a href="#" class="text-byte-primary flex items-center text-sm hover:underline">
+                        <a href="post3.html" class="text-byte-primary flex items-center text-sm hover:underline">
                             Read More <i class="fa fa-arrow-right ml-1"></i>
                         </a>
                     </div>
@@ -222,12 +221,12 @@
             </div>
             <div class="mt-8 text-center">
                 <a href="#" class="inline-block border border-byte-primary px-6 py-3 rounded-lg hover:bg-byte-primary/10 transition-colors">
-                    More <i class="fa fa-angle-down ml-1"></i>
+                    View More Posts <i class="fa fa-angle-down ml-1"></i>
                 </a>
             </div>
         </section>
 
-        <!-- 联系我 -->
+        <!-- Contact Me -->
         <section id="contact">
             <h2 class="text-3xl font-bold mb-8 byte-text border-b border-byte-primary/30 pb-2">
                 <span class="text-byte-primary">[</span> Contact Me <span class="text-byte-primary">]</span>
@@ -235,9 +234,9 @@
             <div class="bg-byte-code/50 rounded-xl p-6 md:p-8 border border-byte-primary/10">
                 <div class="grid md:grid-cols-2 gap-8">
                     <div>
-                        <h3 class="text-xl font-bold mb-4 text-byte-primary">随时欢迎交流</h3>
+                        <h3 class="text-xl font-bold mb-4 text-byte-primary">Always Open to Communication</h3>
                         <p class="text-gray-300 mb-6">
-                            Please contact me if you have any technical questions, collaboration request or just a chill talk. I will get back to you soon! 
+                            If you have any technical questions, cooperation intentions, or just want to talk about programming, you can contact me through the following methods. I will reply to you as soon as possible.
                         </p>
                         <div class="space-y-4">
                             <div class="flex items-center gap-3">
@@ -245,8 +244,8 @@
                                     <i class="fa fa-envelope"></i>
                                 </div>
                                 <div>
-                                    <p class="text-sm text-gray-400">E-Mail</p>
-                                    <p class="hover:text-byte-primary transition-colors">jntm_kk@163.com</p>
+                                    <p class="text-sm text-gray-400">Email</p>
+                                    <p class="hover:text-byte-primary transition-colors">contact@byteblog.com</p>
                                 </div>
                             </div>
                             <div class="flex items-center gap-3">
@@ -255,7 +254,7 @@
                                 </div>
                                 <div>
                                     <p class="text-sm text-gray-400">GitHub</p>
-                                    <p class="hover:text-byte-primary transition-colors">github.com/superLionn</p>
+                                    <p class="hover:text-byte-primary transition-colors">github.com/byte-traveler</p>
                                 </div>
                             </div>
                             <div class="flex items-center gap-3">
@@ -264,7 +263,7 @@
                                 </div>
                                 <div>
                                     <p class="text-sm text-gray-400">WeChat</p>
-                                    <p class="hover:text-byte-primary transition-colors">qbz95678</p>
+                                    <p class="hover:text-byte-primary transition-colors">byte_blog_2024</p>
                                 </div>
                             </div>
                         </div>
@@ -273,18 +272,18 @@
                         <form class="space-y-4">
                             <div>
                                 <label for="name" class="block text-sm text-gray-400 mb-1">Name</label>
-                                <input type="text" id="name" class="w-full bg-byte-dark border border-byte-primary/30 rounded-lg px-4 py-2 focus:outline-none focus:border-byte-primary text-white" placeholder="请输入你的姓名">
+                                <input type="text" id="name" class="w-full bg-byte-dark border border-byte-primary/30 rounded-lg px-4 py-2 focus:outline-none focus:border-byte-primary text-white" placeholder="Enter your name">
                             </div>
                             <div>
-                                <label for="email" class="block text-sm text-gray-400 mb-1">E-Mail</label>
-                                <input type="email" id="email" class="w-full bg-byte-dark border border-byte-primary/30 rounded-lg px-4 py-2 focus:outline-none focus:border-byte-primary text-white" placeholder="请输入你的邮箱">
+                                <label for="email" class="block text-sm text-gray-400 mb-1">Email</label>
+                                <input type="email" id="email" class="w-full bg-byte-dark border border-byte-primary/30 rounded-lg px-4 py-2 focus:outline-none focus:border-byte-primary text-white" placeholder="Enter your email">
                             </div>
                             <div>
                                 <label for="message" class="block text-sm text-gray-400 mb-1">Message</label>
-                                <textarea id="message" rows="4" class="w-full bg-byte-dark border border-byte-primary/30 rounded-lg px-4 py-2 focus:outline-none focus:border-byte-primary text-white resize-none" placeholder="请输入你想对我说的话"></textarea>
+                                <textarea id="message" rows="4" class="w-full bg-byte-dark border border-byte-primary/30 rounded-lg px-4 py-2 focus:outline-none focus:border-byte-primary text-white resize-none" placeholder="Enter your message"></textarea>
                             </div>
                             <button type="submit" class="w-full bg-byte-primary hover:bg-byte-primary/80 py-3 rounded-lg transition-colors">
-                                发送留言
+                                Send Message
                             </button>
                         </form>
                     </div>
@@ -293,27 +292,27 @@
         </section>
     </main>
 
-    <!-- 页脚 -->
+    <!-- Footer -->
     <footer class="bg-byte-dark/80 border-t border-byte-primary/20 py-8">
         <div class="container mx-auto px-4 text-center">
             <p class="byte-text text-sm text-gray-400 mb-4">
-                Jimmy Liang © 2024
+                01101000 01110101 01100010 01101111 01100101 01110011 © 2024
             </p>
             <p class="text-sm text-gray-500">
-                Made with <i class="fa fa-heart text-byte-primary"></i> and binary code | 部署在 GitHub Pages
+                Made with <i class="fa fa-heart text-byte-primary"></i> and binary code | Hosted on GitHub Pages
             </p>
         </div>
     </footer>
 
     <!-- JavaScript -->
     <script>
-        // 主题切换功能
+        // Theme toggle functionality
         const themeToggle = document.getElementById('theme-toggle');
         const body = document.body;
         
         themeToggle.addEventListener('click', () => {
             if (body.classList.contains('byte-bg')) {
-                // 切换到浅色模式
+                // Switch to light mode
                 body.classList.remove('byte-bg');
                 body.classList.add('bg-white', 'text-gray-800');
                 themeToggle.innerHTML = '<i class="fa fa-sun-o text-xl"></i>';
@@ -326,7 +325,7 @@
                     el.classList.add('bg-white');
                 });
             } else {
-                // 切换到深色模式
+                // Switch to dark mode
                 body.classList.add('byte-bg');
                 body.classList.remove('bg-white', 'text-gray-800');
                 themeToggle.innerHTML = '<i class="fa fa-moon-o text-xl"></i>';
@@ -343,7 +342,7 @@
             }
         });
 
-        // 平滑滚动
+        // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -360,10 +359,10 @@
             });
         });
 
-        // 表单提交处理
+        // Form submission handling
         document.querySelector('form').addEventListener('submit', (e) => {
             e.preventDefault();
-            alert('Message has been sent！I will contact you ASAP 😊');
+            alert('Message sent successfully! I will reply to you soon 😊');
             e.target.reset();
         });
     </script>
