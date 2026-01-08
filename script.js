@@ -1,7 +1,7 @@
 // script.js - 通用组件加载脚本
 document.addEventListener('DOMContentLoaded', function() {
     // 加载 Header
-    fetch('components/header.html')
+    fetch('/components/header.html')
         .then(response => {
             if (!response.ok) throw new Error('Header load failed');
             return response.text();
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => console.error('Error loading header:', error));
 
     // 加载 Footer
-    fetch('components/footer.html')
+    fetch('/components/footer.html')
         .then(response => {
             if (!response.ok) throw new Error('Footer load failed');
             return response.text();
